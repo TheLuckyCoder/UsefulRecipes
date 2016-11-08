@@ -24,8 +24,8 @@ void UsefulRecipes::initRecipes(Recipes *instance) {
 	addRecipe(287, 6, 0, {"w ", "  "});
 	
 	//Blaze Rod
-	pushIngredient(288, 's');
-	pushIngredient(377, 'p');
+	pushIngredient(288, 'p');
+	pushIngredient(377, 's');
 	addRecipe(369, 1, 0, {" s ", "sps", " s "});
 	
 	//Blaze Powder
@@ -64,7 +64,7 @@ void UsefulRecipes::initRecipes(Recipes *instance) {
 	//Mycelium
 	pushIngredient(39, 'a');
 	pushIngredient(40, 'b');
-	pushIngredient(3, "d");
+	pushIngredient(3, 'd');
 	addRecipe(110, 1, 0, {"ab", "d "});
 
 	//Chain Helmet
@@ -94,31 +94,31 @@ void UsefulRecipes::initRecipes(Recipes *instance) {
 	//Iron Horse Armor
 	pushIngredient(308, 'l');
 	pushIngredient(306, 'h');
-	pushIngredient(265, "i");
+	pushIngredient(265, 'i');
 	addRecipe(110, 1, 0, {"  h", "iii", "l l"});
 
 	//Gold Horse Armor
 	pushIngredient(316, 'l');
 	pushIngredient(314, 'h');
-	pushIngredient(266, "i");
+	pushIngredient(266, 'i');
 	addRecipe(110, 1, 0, {"  h", "iii", "l l"});
 
 	//Diamond Horse Armor
 	pushIngredient(312, 'l');
 	pushIngredient(310, 'h');
-	pushIngredient(264, "i");
+	pushIngredient(264, 'i');
 	addRecipe(110, 1, 0, {"  h", "iii", "l l"});
 
 	//Nether Wart
 	pushIngredient(88, 'a');
-	pushIngredient(295, "b");
+	pushIngredient(295, 'b');
 	addRecipe(372, 2, 0, {"ab", "ba"});
 
 	//Nether Star
 	pushIngredient(406, 'q');
 	pushIngredient(388, 'e');
-	pushIngredient(264, "d");
-	pushIngredient(377, "p");
+	pushIngredient(264, 'd');
+	pushIngredient(377, 'p');
 	addRecipe(110, 1, 0, { "eqd", "qpq", "dqe" });
 }
 
